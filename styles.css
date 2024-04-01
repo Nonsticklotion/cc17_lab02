@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  /* background-color: aqua; */
+  width: 200px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  border-radius: 8px 0;
+  position: relative;
+  border: 1px solid #3d37376e;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.pic {
+  /* background-color: rgba(255, 0, 0, 0.492); */
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notiright {
+  background-color: red;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  font-size: large;
+  top: -20px;
+  right: -24px;
+  color: white;
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+}
+.pic img{
+  /* background-color: aqua; */
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.exit {
+  /* background-color: green; */
+  position: absolute;
+  color: #3d37376e;
+  font-size: 24px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 4px silver;
+}
+.namecard {
+  /* background-color: yellow; */
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 0 0 8px 8px;
+  border-top: 1px solid #3d37376e;
+}
